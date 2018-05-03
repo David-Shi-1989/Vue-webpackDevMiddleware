@@ -1,6 +1,6 @@
-# base-demo
+# Vue-webpackDevMiddleware
 
-> A Vue.js project
+> A Vue project based on express. Use Webpack-dev-middleware to build a dev enviroment.
 
 ## Build Setup
 
@@ -8,8 +8,8 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve at localhost:3000
+npm run server
 
 # build for production with minification
 npm run build

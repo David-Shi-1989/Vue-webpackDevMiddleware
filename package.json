@@ -1,7 +1,7 @@
 {
-  "name": "base-demo",
+  "name": "Vue-webpackDevMiddleware",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Vue project based on express. Use Webpack-dev-middleware to build a dev enviroment.",
   "author": "David-Shi-1989 <287841605@qq.com>",
   "private": true,
   "scripts": {
