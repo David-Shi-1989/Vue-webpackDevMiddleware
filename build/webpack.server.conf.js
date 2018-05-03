@@ -1,8 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const utils = require('./build/utils')
-const vueLoaderConfig = require('./build/vue-loader.conf');
+const utils = require('./utils')
+const vueLoaderConfig = require('./vue-loader.conf');
 
 const createLintingRule = function (){
   return {
@@ -17,7 +17,7 @@ const createLintingRule = function (){
   }
 }
 function resolve (dir) {
-  return path.join(__dirname, dir)
+  return path.join(__dirname, '../', dir)
 }
 
 module.exports = {
