@@ -1,30 +1,14 @@
-# Vue-webpackDevMiddleware
+# vue-webpack-dev-middleware
 
 > A Vue project based on express. Use Webpack-dev-middleware to build a dev enviroment.
 
 ## Build Setup
+# Install dependencies
+    npm install
 
-``` bash
-# install dependencies
-npm install
+# Serve at localhost:8080
+    npm run server
 
-# serve at localhost:3000
-npm run server
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For a detailed explanation on how things work, check out the [docs for webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware).
