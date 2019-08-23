@@ -7,7 +7,7 @@
 
 <script lang="ts" src="./App.ts"></script>
 
-<style>
+<style lang="less">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,5 +15,8 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  img {
+    width: 40px;
+  }
 }
 </style>
